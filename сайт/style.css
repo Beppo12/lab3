@@ -1,0 +1,302 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+   
+}
+.bb {
+    position: absolute;
+    width: 100%;
+    height: 58px;
+    left: 0px;
+    top: 100px;
+    background: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mag {
+    position: absolute;
+    width: 95px;
+    height: 23px;
+    left: 105px;
+    top: 15px;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.skidki {
+    position: absolute;
+    width: 72px;
+    height: 23px;
+    left: 321px;
+    top: 15px;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #000000;
+}
+.center { 
+    position: absolute;
+    width: 103px;
+    height: 23px;
+    left: 894px;
+    top: 30px;
+   
+}
+    .center button {
+        font-family: 'Alice';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        /* identical to box height */
+        color: #000000;
+        
+        
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+.corzin {
+    /* Корзина */
+    position: absolute;
+    width: 81px;
+    height: 23px;
+    left: 1100px;
+    top: 15px;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #000000;
+}
+.we {
+    position: absolute;
+    width: 51px;
+    height: 23px;
+    left: 1284px;
+    top: 15px;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #000000;
+}
+.logo {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 660px;
+    top: 5px;
+}
+.main {
+    position: absolute;
+    width: 75px;
+    height: 25px;
+    left: 105px;
+    top: 100px;
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+.collection {
+    position: absolute;
+    width: 108px;
+    height: 23px;
+    left: 606px;
+    top: 100px;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+.brend {
+    position: absolute;
+    width: 74px;
+    height: 23px;
+    left: 842px;
+    top: 100px;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+.gift { /* Подарки */
+    position: absolute;
+    width: 81px;
+    height: 23px;
+    left: 1038px;
+    top: 100px;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #ffffff;
+}
+.catalog {
+    position: absolute;
+    width: 190px;
+    height: 23px;
+    left: 290px;
+    top: 100px;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+.accesuar {
+    position: absolute;
+    width: 111px;
+    height: 23px;
+    left: 1224px;
+    top: 100px;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+
+
+.photo {
+    position: absolute;
+    width: 100%;
+    height: 650px;
+    left: 0px;
+    top: 200px;
+   
+}
+
+.text {
+    position: absolute;
+    width: 1275px;
+    height: 173px;
+    left: 43px;
+    top: 650px;
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+.popup {
+    position: absolute;
+    top: -150%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.25);
+    width: 386px;
+    padding: 20px 30px;
+    background: #fff;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    transition: top 0ms ease-in-out 200ms, opacity 200ms ease-in-out 0ms, transform 200ms ease-in-out 0ms;
+}
+
+    .popup.active {
+        top: 50%;
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+        transition: top 0ms ease-in-out 0ms, opacity 200ms ease-in-out 0ms, transform 20ms ease-in-out 0ms;
+    }
+
+    .popup .close-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 15px;
+        height: 15px;
+        background: #000;
+        color: #eee;
+        text-align: center;
+        line-height: 15px;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+    .popup .form h2 {
+        text-align: center;
+        color: #222;
+        margin: 10px 0px 20px;
+        font-size: 25px;
+    }
+
+    .popup .form .form-element {
+        margin: 15px 0px;
+    }
+
+        .popup .form .form-element label {
+            font-size: 14px;
+            color: #222;
+        }
+
+        .popup .form .form-element input[type="text"],
+        .popup .form .form-element input[type="password"] {
+            margin-top: 5px;
+            display: block;
+            width: 100%;
+            padding: 10px;
+            outline: none;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+        }
+
+        .popup .form .form-element input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        .popup .form .form-element button {
+            width: 100%;
+            height: 40px;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            background: #222;
+            color: #f5f5f5;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .popup .form .form-element a {
+            display: block;
+            text-align: right;
+            font-size: 15px;
+            color: #1a79ca;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+Now we need to add our form, for that we have took a di
